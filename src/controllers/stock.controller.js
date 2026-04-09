@@ -1,4 +1,4 @@
-import { fetchStockData, saveStockData }   from "../services/stock.service";
+import { fetchStockData, saveStockData } from "../services/stock.service.js";
 
 export const getStockData = async(req ,res) =>{
   
